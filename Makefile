@@ -1,5 +1,5 @@
-kilo: kilo.c
-	$(CC) kilo.c -o kilo -Wall -Wextra -pedantic -std=c99
+editor: editor.c
+	$(CC) editor.c -o editor -Wall -Wextra -pedantic -std=c99
 
 clean:
-	rm -f kilo
+	rm -f editor
