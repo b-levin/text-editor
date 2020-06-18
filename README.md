@@ -18,10 +18,10 @@ Run `./editor` in the root of the project after using `make` to compile the edit
 * UI rescaling based on window size
 * Cursor navigation using arrow keys
 * Quit the editor via control q
+* File viewing
 
 ## To Do
 
-* File viewing
 * File editing
 * Search
 * Syntax Highling
