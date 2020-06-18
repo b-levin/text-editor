@@ -19,7 +19,7 @@
 /*** defines ***/
 
 #define EDITOR_VERSION "0.0.1"
-#define EDITOR_TAB_STOP 8
+#define EDITOR_TAB_STOP 4
 
 #define CTRL_KEY(k) ((k) & 0x1f)
 
@@ -245,7 +245,6 @@ void editorOpen(char *fileName) {
     char *line = NULL;
     size_t linecap = 0;
     ssize_t linelen;
-    linelen = getline(&line, &linecap, fp);
     while ((linelen = getline(&line, &linecap, fp)) != -1) {
         while (linelen > 0 && (line[linelen - 1] == '\n' ||
                                line[linelen - 1] == '\r'))
