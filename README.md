@@ -22,7 +22,7 @@ Run `./editor` in the root of the project after using `make` to compile the edit
 
 ## To Do
 
-* File editing
+* File editing (in progress)
 * Search
 * Syntax Highling
 * Possible refactoring into a static library
