@@ -19,10 +19,10 @@ Run `./editor` in the root of the project after using `make` to compile the edit
 * Cursor navigation using arrow keys
 * Quit the editor via control q
 * File viewing
+* File Editting (readme was updated using the editor)
 
 ## To Do
 
-* File editing (in progress)
 * Search
 * Syntax Highling
 * Possible refactoring into a static library
