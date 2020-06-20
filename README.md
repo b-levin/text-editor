@@ -21,10 +21,10 @@ Run `./editor` in the root of the project after using `make` to compile the edit
 * File viewing
 * File Editting (readme was updated using the editor)
 * Search
+* Syntax Highlighting (C language)
 
 ## To Do
 
-* Syntax Highlighting (C language)
 * Possible refactoring into a static library
 * U/I improvments?
 * More shortcuts
