@@ -20,9 +20,12 @@ Run `./editor` in the root of the project after using `make` to compile the edit
 * Quit the editor via control q
 * File viewing
 * File Editting (readme was updated using the editor)
+* Search
 
 ## To Do
 
-* Search
-* Syntax Highling
+* Syntax Highlighting (C language)
 * Possible refactoring into a static library
+* U/I improvments?
+* More shortcuts
+* Detection for incomplete brackets
